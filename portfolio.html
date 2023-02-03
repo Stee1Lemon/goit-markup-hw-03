@@ -22,13 +22,15 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="navigation">
+      <div class="container header-wrap">
+        <nav class="navigation-wrap">
           <a class="header-logo link" href="./index.html"
             ><span class="logo-color">Web</span>Studio</a
           >
-          <ul class="header-navigation list">
-            <li><a class="header-link link" href="./index.html">Studio</a></li>
+          <ul class="header-navigation header-navigation-wrap list">
+            <li>
+              <a class="header-link link" href="./index.html">Studio</a>
+            </li>
             <li>
               <a class="header-link link current" href="./portfolio.html"
                 >Portfolio</a
@@ -37,8 +39,8 @@
             <li><a class="header-link link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <address>
-          <ul class="header-address list">
+        <address class="address">
+          <ul class="header-address header-address-wrap list">
             <li>
               <a class="header-auth link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -54,17 +56,21 @@
       </div>
     </header>
     <main>
-      <section class="section">
+      <section class="section portfolio">
         <div class="container">
           <!-- Make h1 hidden -->
           <h1 class="hidden">Portfolio</h1>
           <!-- Filter buttons -->
-          <ul class="filter-list list">
+          <ul class="filter-list-wrap list">
             <li><button class="filter-btn" type="button">All</button></li>
-            <li><button class="filter-btn" type="button">Web Site</button></li>
+            <li>
+              <button class="filter-btn" type="button">Web Site</button>
+            </li>
             <li><button class="filter-btn" type="button">App</button></li>
             <li><button class="filter-btn" type="button">Design</button></li>
-            <li><button class="filter-btn" type="button">Marketing</button></li>
+            <li>
+              <button class="filter-btn" type="button">Marketing</button>
+            </li>
           </ul>
           <!-- Portfolio cards, make h2 hidden -->
           <h2 class="hidden">Portfolio List</h2>
@@ -77,10 +83,12 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">
-                  Banking App Interface Concept
-                </h3>
-                <p class="portfolio-text">App</p></a
+                <div class="portfolio-item-info">
+                  <h3 class="portfolio-subtitle">
+                    Banking App Interface Concept
+                  </h3>
+                  <p class="portfolio-text">App</p>
+                </div></a
               >
             </li>
             <li class="item">
@@ -91,8 +99,8 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">Cashless Payment</h3>
-                <p class="portfolio-text">Marketing</p></a
+                <div class="portfolio-item-info"><h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p></div></a
               >
             </li>
             <li class="item">
@@ -103,8 +111,8 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">Meditation App</h3>
-                <p class="portfolio-text">App</p></a
+                <div class="portfolio-item-info"><h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p></div></a
               >
             </li>
             <li class="item">
@@ -115,8 +123,8 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">Taxi Service</h3>
-                <p class="portfolio-text">Marketing</p></a
+                <div class="portfolio-item-info"><h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p></div></a
               >
             </li>
             <li class="item">
@@ -127,8 +135,8 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-                <p class="portfolio-text">Design</p></a
+                <div class="portfolio-item-info"><h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p></div></a
               >
             </li>
             <li class="item">
@@ -139,8 +147,8 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">Online Courses</h3>
-                <p class="portfolio-text">Marketing</p></a
+                <div class="portfolio-item-info"><h3 class="portfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p></div></a
               >
             </li>
             <li class="item">
@@ -151,8 +159,8 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">Instagram Stories Concept</h3>
-                <p class="portfolio-text">Design</p></a
+                <div class="portfolio-item-info"><h3 class="portfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p></div></a
               >
             </li>
             <li class="item">
@@ -163,8 +171,8 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">Organic Food</h3>
-                <p class="portfolio-text">Web Site</p></a
+                <div class="portfolio-item-info"><h3 class="portfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p></div></a
               >
             </li>
             <li class="item">
@@ -175,8 +183,8 @@
                   width="360"
                   height="300"
                 />
-                <h3 class="portfolio-subtitle">Fresh Coffee</h3>
-                <p class="portfolio-text">Web Site</p></a
+                <div class="portfolio-item-info"><h3 class="portfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p></div></a
               >
             </li>
           </ul>
