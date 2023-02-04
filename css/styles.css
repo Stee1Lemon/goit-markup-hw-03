@@ -209,25 +209,22 @@ ul {
 .we-doing-wrap {
   display: flex;
   gap: 24px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .we-doing-item {
   flex-shrink: 0;
   /* width: 360px; */
-  width: calc((100% - 44px) / 3);
+  width: calc((100% - 24px * 2) / 3);
 }
 /* ------------------Our team------------------ */
 .team-wrap {
   display: flex;
   gap: 24px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .section-card {
-  display: block;
-  flex-shrink: 0;
-  /* flex-basis: calc((100% - 44px) / 4); */
-  /* height: 380px; */
-  max-width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 24px * 3) / 4);
+  /* max-width: calc((100% - 24px * 3) / 4); */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -305,8 +302,8 @@ ul {
   color: var(--dark-navy-blue-color);
 }
 .portfolio-list .item {
-  width: calc((100% - 48px) / 3);
-  /* height: 420px; */
+  flex-shrink: 0;
+  flex-basis: calc((100% - 24px * 2) / 3);
   border: 1px solid var(--accent-cornflower-color);
 }
 .portfolio-text {
