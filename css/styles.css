@@ -293,6 +293,9 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  border-right: 1px solid var(--accent-cornflower-color);
+  border-bottom: 1px solid var(--accent-cornflower-color);
+  border-left: 1px solid var(--accent-cornflower-color);
 }
 .portfolio-subtitle {
   font-weight: 500;
@@ -304,7 +307,7 @@ ul {
 .portfolio-list .item {
   flex-shrink: 0;
   flex-basis: calc((100% - 24px * 2) / 3);
-  border: 1px solid var(--accent-cornflower-color);
+  ;
 }
 .portfolio-text {
   line-height: 1.5;
